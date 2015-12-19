@@ -2,7 +2,9 @@
 
 A Java application that solves a Sudoku grid after the user enters an initial configuration. This application uses the MVC (model-view-controller) pattern. The GUI has 3 buttons - *Solve*, *Reset* and *Undo last cell* and a status label. The user can input numbers by clicking on cell buttons and pressing *Solve*. If the initial configuration is invalid (there are duplicate numbers in the same row/column/3x3 grid), the status label will display an error message. The *Reset* button clears all cells, and the *Undo last cell* button clears input cells one-by-one, starting from the last input cell.
 
-<img src="https://github.com/anchal-agrawal/sudoku-solver/blob/master/images/solved.png?raw=true" width="300px" height:"300px">
+<p align="center">
+<img src="https://github.com/anchal-agrawal/sudoku-solver/blob/master/images/solved.png?raw=true" width="500px" height="500px">
+</p>
 
 ### Algorithm
 
@@ -31,15 +33,21 @@ This repository can be imported as an Eclipse project. The sudoku/driver/Driver.
 
 * Initial GUI
 
-<img src="https://github.com/anchal-agrawal/sudoku-solver/blob/master/images/start.png?raw=true" width="300px" height:"300px">
+<p align="center">
+<img src="https://github.com/anchal-agrawal/sudoku-solver/blob/master/images/start.png?raw=true" width="500px" height="500px">
+</p>
 
 * Enter values
 
-<img src="https://github.com/anchal-agrawal/sudoku-solver/blob/master/images/input.png?raw=true" width="300px" height:"300px">
+<p align="center">
+<img src="https://github.com/anchal-agrawal/sudoku-solver/blob/master/images/input.png?raw=true" width="500px" height="500px">
+</p>
 
 * Press *Solve*
 
-<img src="https://github.com/anchal-agrawal/sudoku-solver/blob/master/images/solved.png?raw=true" width="300px" height:"300px">
+<p align="center">
+<img src="https://github.com/anchal-agrawal/sudoku-solver/blob/master/images/solved.png?raw=true" width="500px" height="500px">
+</p>
 
 ### External libraries
 
